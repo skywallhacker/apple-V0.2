@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.head header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 42px;
+  height: 44px;
+}
+.head header nav a {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  padding: 70px 150px;
+}
+.title .text_box {
+  width: 787px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.title .text_box h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.title .text_box p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.flex .flex_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 76px;
+}
+.flex .flex_box .item h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+}
+.flex .flex_box .item span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #0071E3;
+}
+.flex .flex_box .item h3 {
+  margin-top: 48px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+}
+
+.configuration {
+  padding: 60px 150px;
+}
+.configuration .configuration_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+.configuration .configuration_box button {
+  margin-bottom: 40px;
+}
+.configuration .configuration_box .activeBtn {
+  background: #0071E3;
+}
+.configuration .configuration_box button {
+  border-radius: 10px;
+  border: 0;
+  width: 155px;
+  height: 42px;
+  background: #CFE7FF;
+}
+.configuration .configuration_flex_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+}
+.configuration .configuration_flex_box .active_br {
+  width: 321px;
+  height: 57px;
+  border: 2px solid #0071E3;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.configuration .configuration_flex_box .active {
+  border: 2px solid #0071E3;
+}
+.configuration .configuration_flex_box .notactive {
+  border: 2px solid #CFE7FF;
+}
+.configuration .configuration_flex_box button {
+  width: 321px;
+  height: 57px;
+  border: 2px solid #CFE7FF;
+  border-radius: 10px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 20px 18px;
+}
+.configuration .configuration_flex_box button span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
